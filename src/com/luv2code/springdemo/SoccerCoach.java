@@ -17,4 +17,21 @@ public class SoccerCoach implements Coach {
     public String getDailyFortune() {
         return fortuneService.getFortune();
     }
+
+    public void doMyStartupStuff() {
+        System.out.println("SoccerCoach:doMyStartupStuff");
+    }
+
+    public void doMyCleanupStuff() {
+        System.out.println("SoccerCoach:doMyCleanupStuff");
+    }
+
+
 }
+
+
+
+
+
+
+
